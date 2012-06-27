@@ -4,43 +4,51 @@ layout: default
 ---
 
 <div class="container-fluid">
-  <div class="row-fluid">
-    <div class="span2 well">
+    <div class="row-fluid">
+        <div id="sidebar" class="span2">
 
-      <a href="/">
-        <img src="http://www.gravatar.com/avatar/29d91f07dbba16c812b51b588014303c.png" />
-      </a>
-      
-      <div class="name">
-        <a href="/">
-          <span id="nicolas">Nicolas</span>
-          <span id="goles">Goles</span>
-        </a>
-      </div>
+            <div>
+                <a href="/">
+                    <img src="https://si0.twimg.com/profile_images/2046507474/photo2.jpg" width="86" class="avatar" />
+                </a>
+            </div>
 
-      <div class="meta">
-        <a href="https://github.com/goles" id="github">
-          <img src="/assets/img/github.png" />
-        </a>
-        <a href="http://twitter.com/ngoles" id="twitter">
-          <img src="/assets/img/twitter.png" />
-        </a>
-      </div>
+            <div class="name">
+                <a href="/">
+                    <span id="nicolas">NICOLAS</span>
+                    <span id="goles">Goles</span>
+                </a>
+            </div>
 
-      <div class="sections">
-        <ul>
-          <li> <a href="/about.html"> Projects </a></li>
-          <li> <a href="/projects.html"> About </a></li>
-        </ul>
-      </div>
+            <div class="meta">
+                <a href="https://github.com/goles" id="github">
+                    <img src="/assets/img/github.png" />
+                </a>
+                <a href="http://twitter.com/ngoles" id="twitter">
+                    <img src="/assets/img/twitter.png" />
+                </a>
+            </div>
 
+            <div class="sections">
+                <ul>
+                    <li> <a href="/about.html"> Projects </a></li>
+                    <li> <a href="/projects.html"> About </a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div id="content" class="span10">
+            <table class="table table-striped table-condensed">
+                <tbody>
+                    {% for post in site.posts %}
+                    <tr>
+                        <td> The creativity of men</td>
+                        <td style="text-align: right;"> November 28, 2012</td>
+                    </tr>
+
+                    {% endfor %}
+                </tbody>
+            </ul>
+        </div>
     </div>
-    <div class="span10 well">
-      <ul>
-      {% for post in site.posts %}
-        <li> A post </li>
-      {% endfor %}
-    </ul>
-    </div>
-  </div>
 </div>

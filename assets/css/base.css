@@ -43,7 +43,6 @@
 
 .container-fluid .row-fluid #sidebar .name a:link {
   text-decoration:none;
-
 }
 
 .container-fluid .row-fluid #sidebar .name a:hover {
@@ -67,8 +66,22 @@
 
 /* content */
 .container-fluid .row-fluid #content {
-
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: Georgia, serif;
 }
+
+a:link {
+  color: #C00!important;
+}
+
+a:visited {
+  color: #C00!important;
+}
+
 
 .container-fluid .row-fluid #content .table {
   margin-top: 2px;

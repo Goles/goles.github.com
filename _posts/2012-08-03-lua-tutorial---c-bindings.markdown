@@ -176,7 +176,7 @@ main.c
 
 ### Outro
 
-We did some really basic Lua bindins, I really hope that you learned a bit more and that you can now start experimenting on your own projects. I may write a part 2 of this series in the nearly future. If you would like me to cover any particular subject you can always write to me on [Twitter](http://www.twitter.com/ngoles).
+We did some really basic Lua bindings, I really hope that you learned a bit more and that you can now start experimenting on your own projects. I may write a part 2 of this series in the nearby future. If you would like me to cover any particular subject you can always write to me on [Twitter](http://www.twitter.com/ngoles).
 
 ### Further Lecture
 

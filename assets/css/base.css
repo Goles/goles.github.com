@@ -22,19 +22,22 @@ body {
 }
 
 .container .row #sidebar .sections a {
-    color: #fff;
     text-decoration: none;
     padding: 3px 5px;
 }
 
 .container .row #sidebar .sections ul {
     margin: 0;
-    background-color: #000;
     list-style-type: none;
 }
+
 .container .row #sidebar .sections li {
     border-style:solid;
     border-width: 7px;
+}
+
+.container .row #sidebar .meta {
+    margin-top: 40px;
 }
 
 .container .row .avatar {
@@ -110,13 +113,13 @@ body {
 .container .row #content .table {
   margin-top: 2px;
   font-size: 17px;
-  width: 50%;
+  margin-left: 20px;
 }
 
 /* Content */
 .content {
   margin-left: 110px;
-  width: 650px;
+  width: 740px;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;

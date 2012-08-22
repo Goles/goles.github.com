@@ -4,40 +4,40 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-.container-fluid {
+.container {
     margin-top: 20px;
 }
 
 /* sidebar */
-.container-fluid .row-fluid #sidebar {
+.container .row #sidebar {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     width: 90px;
 }
 
 /* sections */
-.container-fluid .row-fluid #sidebar .sections {
+.container .row #sidebar .sections {
     color: #fff;
     font-weight: bold;
     font-size: 15px;
 }
 
-.container-fluid .row-fluid #sidebar .sections a {
+.container .row #sidebar .sections a {
     color: #fff;
     text-decoration: none;
     padding: 3px 5px;
 }
 
-.container-fluid .row-fluid #sidebar .sections ul {
+.container .row #sidebar .sections ul {
     margin: 0;
     background-color: #000;
     list-style-type: none;
 }
-.container-fluid .row-fluid #sidebar .sections li {
+.container .row #sidebar .sections li {
     border-style:solid;
     border-width: 7px;
 }
 
-.container-fluid .row-fluid .avatar {
+.container .row .avatar {
     padding: 0;
     margin-left: 2px;
     margin-bottom: 20px;
@@ -46,36 +46,36 @@ body {
     opacity: .8;
 }
 
-.container-fluid .row-fluid #sidebar .name {
+.container .row #sidebar .name {
     text-transform: uppercase;
     margin-bottom: 20px;
     text-shadow: 0px 0px 15px #CCC;
     opacity: .7;
 }
 
-.container-fluid .row-fluid #sidebar .name {
+.container .row #sidebar .name {
     text-transform: uppercase;
     margin-bottom: 20px;
     text-shadow: 0px 0px 15px #CCC;
     opacity: .7;
 }
 
-.container-fluid .row-fluid #sidebar .name {
+.container .row #sidebar .name {
     text-transform: uppercase;
     margin-bottom: 20px;
     text-shadow: 0px 0px 15px #CCC;
     opacity: .7;
 }
 
-.container-fluid .row-fluid #sidebar .name a:link {
+.container .row #sidebar .name a:link {
   text-decoration:none;
 }
 
-.container-fluid .row-fluid #sidebar .name a:hover {
+.container .row #sidebar .name a:hover {
   border-bottom:1px solid #ccc;
 }
 
-.container-fluid .row-fluid #sidebar .name #nicolas {
+.container .row #sidebar .name #nicolas {
     font-size: 17px;
     letter-spacing: 3px;
     margin-bottom: 10px;
@@ -83,7 +83,7 @@ body {
     padding-left: 1px;
 }
 
-.container-fluid .row-fluid #sidebar .name #goles {
+.container .row #sidebar .name #goles {
     font-size: 21px;
     letter-spacing: 5px;
     font-weight: bold;
@@ -91,7 +91,7 @@ body {
 }
 
 /* content */
-.container-fluid .row-fluid #content {
+.container .row #content {
   font-style: normal;
   font-variant: normal;
   font-size: 1em;
@@ -107,7 +107,7 @@ body {
   color: #C00!important;
 }
 
-.container-fluid .row-fluid #content .table {
+.container .row #content .table {
   margin-top: 2px;
   font-size: 17px;
   width: 50%;

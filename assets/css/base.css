@@ -14,6 +14,10 @@ body {
     width: 90px;
 }
 
+.container .row #sidebar a {
+  color: #C00!important;
+}
+
 /* sections */
 .container .row #sidebar .sections {
     color: #fff;
@@ -102,6 +106,12 @@ body {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
+.container .row #content h1 {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 19px;
+  margin-left: 20px;
+}
+
 #content a:link {
   color: #C00!important;
 }
@@ -116,7 +126,7 @@ body {
   margin-left: 20px;
 }
 
-/* Content */
+/* Post Content */
 .content {
   margin-left: 110px;
   width: 740px;

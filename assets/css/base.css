@@ -10,8 +10,8 @@ body {
 
 /* sidebar */
 .container .row #sidebar {
+    width: 180px;
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    width: 90px;
 }
 
 .container .row #sidebar a {
@@ -55,23 +55,10 @@ body {
 
 .container .row #sidebar .name {
     text-transform: uppercase;
+    margin-top: 26px;
     margin-bottom: 20px;
     text-shadow: 0px 0px 15px #CCC;
-    opacity: .7;
-}
-
-.container .row #sidebar .name {
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    text-shadow: 0px 0px 15px #CCC;
-    opacity: .7;
-}
-
-.container .row #sidebar .name {
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    text-shadow: 0px 0px 15px #CCC;
-    opacity: .7;
+    opacity: .6;
 }
 
 .container .row #sidebar .name a:link {
@@ -83,19 +70,36 @@ body {
 }
 
 .container .row #sidebar .name #nicolas {
-    font-size: 17px;
+    font-size: 35px;
     letter-spacing: 3px;
     margin-bottom: 10px;
-    color: #666;
+    color: #000;
     padding-left: 1px;
 }
 
 .container .row #sidebar .name #goles {
-    font-size: 21px;
-    letter-spacing: 5px;
+    font-size: 25px;
+    letter-spacing: 4px;
     font-weight: bold;
-    color: #555;
+    color: #000;
 }
+
+.container .row #sidebar img {
+  position: relative;
+  float: left;
+  margin-top: 5px;
+  margin-right: 10px;
+  border-radius: 4px;
+  opacity: .8;
+}
+
+img.desaturate { filter: grayscale(100%);
+    -webkit-filter: grayscale(70%);
+    -moz-filter: grayscale(70%);
+    -ms-filter: grayscale(70%);
+    -o-filter: grayscale(70%);
+}
+
 
 /* content */
 .container .row #content {
@@ -104,6 +108,7 @@ body {
   font-size: 1em;
   line-height: 1.6em;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  margin-top: 20px;
 }
 
 .container .row #content h1 {
@@ -122,7 +127,7 @@ body {
 
 .container .row #content .table {
   margin-top: 2px;
-  font-size: 17px;
+  font-size: 15px;
   margin-left: 20px;
 }
 

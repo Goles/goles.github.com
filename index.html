@@ -2,39 +2,31 @@
 title: Home
 layout: default
 ---
-<a href="https://github.com/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
-
 <div class="container">
     <div class="row">
-        <div id="sidebar" class="span2 offset1">
-
+        <div id="sidebar" class="span4">
             <div class="name">
                 <a href="/">
-                    <span id="nicolas">NICOLAS</span>
-                    <span id="goles">Goles</span>
+                    <span id="nicolas">NICOLAS </span><span id="goles">GOLES</span>
                 </a>
             </div>
-
-            <div class="sections">
-                <ul>
-                    <li> <a href="/about.html"> Projects </a></li>
-                    <li> <a href="/projects.html"> About </a></li>
-                </ul>
+            <div class="crazy_photo">
+                <p>
+                    <a href="https://twitter.com/ngoles">
+                        <img src="http://www.gravatar.com/avatar/29d91f07dbba16c812b51b588014303c.png" height="80" width="80" class="desaturate" />
+                    </a>
+                </p>
             </div>
-
-            <div class="meta">
-                <a href="https://github.com/goles" id="github">
-                    <img src="/assets/img/github.png" />
-                </a>
-                <a href="http://twitter.com/ngoles" id="twitter">
-                    <img src="/assets/img/twitter.png" />
-                </a>
+            <div class="links">
+                <p> <a href="/about.html"> PROJECTS </a></p>
+                <p> <a href="/talks.html"> TALKS </a></p>
+                <p> <a href="/projects.html"> ABOUT </a></p>
             </div>
 
         </div>
+
         <div id="content" class="span8">
             <table class="table table-striped table-condensed">
-                <h1> Blog Posts </h1>
                 <tbody>
                     {% for post in site.posts %}
                     <tr>
